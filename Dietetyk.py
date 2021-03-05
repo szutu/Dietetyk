@@ -30,9 +30,9 @@ def ObliczBmi():
     if 25 < bmi < 30:
         bmiComment = 'Masz nadwage.Schudnij.'
     if 30 < bmi < 40:
-        bmiComment = 'Masz otyłość pierwszego stopnia natychmiast zredukuj wagę.'
+        bmiComment = 'Masz otyłość pierwszego stopnia, natychmiast zredukuj wagę.'
     if bmi > 40:
-        bmiComment = 'Jesteś otyły i to w drugim stopniu. Schudnij świniaku.'
+        bmiComment = 'Jesteś otyły i to w drugim stopniu. Schudnij!.'
     bmiResult.set(bmiComment)
 
 
